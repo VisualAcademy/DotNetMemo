@@ -1,0 +1,9 @@
+* 카테고리(Category) 애플리케이션
+
+1. Category 윈 폼 프로젝트 생성
+2. Category DB/UID/PWD 생성
+3. Categories 테이블 생성
+4. 6가지 예시문
+5. 6가지 저장프로시저
+6. 6가지 윈폼
+7. 6가지 웹폼

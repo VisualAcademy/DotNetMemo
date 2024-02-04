@@ -1,0 +1,51 @@
+* 주소록 애플리케이션 프로젝트
+
+1. 계획 : 주소록
+	- 간단한 주소 정보 입력
+	- 주소록 정보 인쇄
+	- 이메일을 사용 이메일 전송
+	- 휴대폰 번호를 사용한 SMS 전송
+2. 분석 : 무료 이메일
+------------------------
+3. 설계 : 화면설계, DB설계
+4. 구현(코딩) : 
+	입력,출력,상세,수정,삭제,검색
+5. 테스트/배포 
+	셋업프로젝트
+6. 운영/유지보수
+	사용(윈폼/웹폼)
+
+
+3.1. DB 설계
+1. 개념적 설계
+2. 논리적 설계
+3. 물리적 설계
+--------------------------------------
+1. DB 생성 : AddressDB
+2. UID/PWD 생성 : AddressUid/AddressPwd
+3. UDL 생성 : 데이터베이스연결문자열 생성
+4. Table 생성 : Address : 복수형
+5. 예시문 작성(6가지)
+6. SP 생성(6가지) : 접두어 + Address
+-입력 : WriteAddress, AddAddress
+-출력 : ListAddress, GetAddress	
+-상세 :ViewAddress,DetailAddress	
+-수정 :ModifyAddress,EditAddress
+-삭제 :DeleteAddress,RemoveAddress
+-검색 : SearchAddress,FindAddress
+--------------------------------------
+C#(윈폼)
+- FrmWrite.cs
+- FrmList.cs
+- FrmView.cs
+- FrmModify.cs
+- FrmDelete.cs
+- FrmSearch.cs
+--------------------------------------
+ASP.NET(웹폼)
+- Write.aspx
+- List.aspx
+- View.aspx
+- Modify.aspx
+- Delete.aspx
+- Search.spx
